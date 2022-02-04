@@ -35,11 +35,11 @@ myaddpath('contrib/io');
 myaddpath('contrib/learn');
 myaddpath('contrib/learn/adaboost');
 myaddpath('contrib/preproc');
-myaddpath('contrib/subj');
-myaddpath('contrib/template');
-myaddpath('contrib/tests');
-myaddpath('contrib/util');
-myaddpath('contrib/vis');
+% myaddpath('contrib/subj');
+% myaddpath('contrib/template');
+% myaddpath('contrib/tests');
+% myaddpath('contrib/util');
+% myaddpath('contrib/vis');
 
 
 % Add paths for packages bundled with the toolbox.
