@@ -30,11 +30,11 @@ myaddpath('core/template');
 myaddpath('core/deprecated');
 
 % Contrib Paths
-myaddpath('contrib');
-myaddpath('contrib/io');
-myaddpath('contrib/learn');
-myaddpath('contrib/learn/adaboost');
-myaddpath('contrib/preproc');
+% myaddpath('contrib');
+% myaddpath('contrib/io');
+% myaddpath('contrib/learn');
+% myaddpath('contrib/learn/adaboost');
+% myaddpath('contrib/preproc');
 % myaddpath('contrib/subj');
 % myaddpath('contrib/template');
 % myaddpath('contrib/tests');
