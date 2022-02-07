@@ -108,7 +108,7 @@ subj_TRselector = create_xvalid_indices(subj,'runs');
 summarize(subj_TRselector, 'objtype', 'selector');
 
 
-%% Task 5
+%% Task 4
 % Explain what is plotted in this figure and why we need this variable.
 figure; imagesc(subj_TRselector.selectors{3}.mat); colorbar;
 
@@ -136,7 +136,7 @@ summarize(subj_fs_05,'objtype','mask')
 % end
 
 
-%% Task 6
+%% Task 5
 % How many voxels are included in each of the newly generated masks, with a 
 % p-value threshold set to 0.001?
 % Why did ANOVA only remove a very small number of voxels in each case?
@@ -187,7 +187,7 @@ subj_norest_fs_05 = feature_select(subj_TRselector_norest,'epi_z','conds','runs_
 [subj_norest_fs_05, results_norest_fs_05] = cross_validation(subj_norest_fs_05,'epi_z','conds','runs_xval','epi_z_thresh0.05',class_args);
 
 
-%% Task 7
+%% Task 6
 % Why does classification accuracy improve when we exclude rest TRs?
 results_fs_05.total_perf
 results_norest_fs_05.total_perf
